@@ -1,0 +1,26 @@
+body{
+    background-color: lightslategrey;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    color: white;
+}
+h1{
+    justify-content: center;
+    text-align: center;
+    align-items: center;
+}
+h2{
+    font-weight: 300;
+}
+#card_div{
+    display: grid;
+    grid-template-columns: repeat(3,1fr);
+    width: 80%;
+    justify-content: center;
+    text-align: center;
+    align-items: center;
+    margin: auto;
+}
+#card_div>div{
+    border: 5px solid hotpink;
+    margin: 5px;
+}
